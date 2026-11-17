@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de la investigación — Barrio Puerto | Transiciones Espaciales y Perceptuales</title>
+  <meta name="description" content="Presentación editorial de la investigación sobre transiciones espaciales y perceptuales en Barrio Puerto, Valparaíso. Taller de Diseño de Servicios 2026, e[ad] PUCV.">
+  
+  <!-- Tipografía Work Sans (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Hoja de estilos exclusiva para la página About -->
+  <link rel="stylesheet" href="css/about.css">
+  
+  <!-- Script para animaciones orgánicas y scroll editorial -->
+  <script src="js/about.js" defer></script>
+</head>
+<body>
+
+  <!-- Barra de navegación superior fija (Editorial & Minimalista) -->
+  <header class="about-nav-bar" id="about-nav-bar">
+    <div class="about-nav-brand">
+      <span class="about-nav-dot"></span>
+      <span class="about-nav-dot purple"></span>
+      <span>Barrio Puerto / Investigación</span>
+    </div>
+    <a href="index.html" class="btn-return-vis" aria-label="Volver a la plataforma de visualización">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="15" y1="8" x2="2" y2="8"></line>
+        <polyline points="8 14 2 8 8 2"></polyline>
+      </svg>
+      <span>Volver a la visualización</span>
+    </a>
+  </header>
+
+  <!-- 1. PRIMERA PANTALLA — PORTADA (100vh) -->
+  <section class="about-hero" id="hero-section" aria-label="Portada de la investigación">
+    <!-- Lienzo interactivo con figuras geométricas dispersas flotantes -->
+    <canvas id="hero-canvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-category">Investigación territorial & perceptual</div>
+      <h1 class="hero-title-main">TRANSICIONES ESPACIALES Y PERCEPTUALES</h1>
+      <p class="hero-title-sub">durante recorridos por sectores portuarios</p>
+    </div>
+
+    <!-- Indicador sutil de scroll -->
+    <a href="#seccion-investigamos" class="hero-scroll-indicator" id="hero-scroll-trigger" aria-label="Desplazarse hacia abajo">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- CONTENEDOR PRINCIPAL EDITORIAL -->
+  <main class="editorial-container">
+
+    <!-- 2. SEGUNDA SECCIÓN — ¿QUÉ INVESTIGAMOS? -->
+    <section class="about-section" id="seccion-investigamos">
+      <div class="section-header-meta">
+        <span class="section-num">01</span>
+      </div>
+      <h2 class="section-title">¿QUÉ INVESTIGAMOS?</h2>
+      
+      <div class="prose-text">
+        <p>
+          Caminar por Barrio Puerto implica atravesar espacios que cambian constantemente. Desde la amplitud del borde costero hasta las calles delimitadas por edificios y fachadas, el recorrido presenta distintas condiciones que transforman la manera de experimentar el entorno.
+        </p>
+        <p>
+          Esta investigación busca comprender cómo cambia la percepción de las personas al desplazarse por estos espacios, observando la relación entre las características físicas del territorio y las experiencias que surgen durante el recorrido.
+        </p>
+      </div>
+
+      <!-- Pregunta de investigación destacada -->
+      <div class="research-question-box">
+        <div class="research-question-tag">
+          <span class="about-nav-dot"></span>
+          <span>Pregunta central</span>
+        </div>
+        <p class="research-question-text">
+          ¿CÓMO CAMBIA LA PERCEPCIÓN DEL ENTORNO A MEDIDA QUE LAS PERSONAS ATRAVIESAN DISTINTAS CONDICIONES ESPACIALES DURANTE SUS RECORRIDOS POR SECTORES PORTUARIOS?
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. TERCERA SECCIÓN — ¿CÓMO SE REALIZÓ LA INVESTIGACIÓN? -->
+    <section class="about-section" id="seccion-metodologia">
+      <div class="section-header-meta">
+        <span class="section-num">02</span>
+      </div>
+      <h2 class="section-title">¿CÓMO SE REALIZÓ?</h2>
+
+      <div class="prose-text">
+        <p>
+          El estudio comenzó mediante recorridos y observaciones en terreno por Barrio Puerto. A través de fotografías, videos, croquis y registros, se identificaron diferencias en la configuración de los espacios y en las experiencias que estos posibilitan.
+        </p>
+      </div>
+
+      <!-- Tres dimensiones en bloques editoriales diferenciados -->
+      <div class="dimensions-grid">
+        <article class="dimension-block">
+          <div class="dimension-badge">
+            <span class="shape-circle" title="Apertura"></span>
+            <span class="shape-square" title="Contención"></span>
+          </div>
+          <h3 class="dimension-title">APERTURA Y AMPLITUD</h3>
+          <p class="dimension-desc">
+            Se observaron los grados de apertura y contención de los espacios, junto con las formas de circulación, detención y permanencia de las personas.
+          </p>
+        </article>
+
+        <article class="dimension-block">
+          <div class="dimension-badge">
+            <span class="shape-landmark" title="Elementos referenciales"></span>
+          </div>
+          <h3 class="dimension-title">ELEMENTOS REFERENCIALES</h3>
+          <p class="dimension-desc">
+            Se identificaron elementos arquitectónicos, culturales, espaciales y viales que destacan durante el recorrido.
+          </p>
+        </article>
+
+        <article class="dimension-block">
+          <div class="dimension-badge">
+            <span class="shape-texture" title="Materialidad del suelo"></span>
+          </div>
+          <h3 class="dimension-title">MATERIALIDAD DEL SUELO</h3>
+          <p class="dimension-desc">
+            Se registraron los tipos de pavimento, sus condiciones, irregularidades y transiciones, considerando su relación con el desplazamiento.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. CUARTA SECCIÓN — ¿QUÉ OBSERVAMOS? -->
+    <section class="about-section" id="seccion-observaciones">
+      <div class="section-header-meta">
+        <span class="section-num">03</span>
+      </div>
+      <h2 class="section-title">¿QUÉ OBSERVAMOS?</h2>
+
+      <div class="prose-text">
+        <p>
+          La investigación permitió reconocer que Barrio Puerto no presenta una condición espacial homogénea. Durante los recorridos se alternan espacios abiertos, calles contenidas, superficies de distintas materialidades y lugares con diferentes intensidades de actividad.
+        </p>
+        <p>
+          Estas condiciones participan en la experiencia del desplazamiento: pueden modificar la amplitud visual, la relación con las fachadas, la atención dirigida al suelo y las posibilidades de detenerse o continuar caminando.
+        </p>
+        <p>
+          El estudio considera tanto aquello que puede observarse directamente en el territorio como aquello que las personas reconocen y expresan sobre su propia experiencia.
+        </p>
+      </div>
+
+      <!-- Registro fotográfico real del trabajo de campo -->
+      <figure class="visual-showcase">
+        <div class="visual-image-wrapper">
+          <img src="assets/img/registro-territorial.jpg" alt="Registro fotográfico territorial y delimitación de sectores de estudio en Barrio Puerto" loading="lazy">
+        </div>
+        <figcaption class="visual-caption">
+          <span class="caption-label">Registro en terreno</span>
+          <span>Delimitación territorial y análisis de los ocho sectores de estudio en Barrio Puerto, Valparaíso.</span>
+          <span class="caption-meta">Fotografía ortogonal y registro de campo</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- 5. QUINTA SECCIÓN — LA VISUALIZACIÓN -->
+    <section class="about-section" id="seccion-visualizacion">
+      <div class="section-header-meta">
+        <span class="section-num">04</span>
+      </div>
+      <h2 class="section-title">¿QUÉ REPRESENTA ESTA VISUALIZACIÓN?</h2>
+
+      <div class="prose-text">
+        <p>
+          Esta plataforma se centra en la dimensión de apertura y amplitud espacial, mostrando cómo las personas perciben distintos sectores de Barrio Puerto.
+        </p>
+        <p>
+          Mediante una cuadrícula territorial, las respuestas se organizan según su ubicación, permitiendo comparar las percepciones de apertura y contención entre los ocho sectores estudiados.
+        </p>
+        <p>
+          La representación busca hacer visibles las diferencias entre las respuestas y reconocer cómo una misma área puede ser experimentada de distintas maneras por quienes la recorren.
+        </p>
+      </div>
+
+      <!-- Captura real de la visualización interactiva -->
+      <figure class="visual-showcase">
+        <div class="visual-image-wrapper">
+          <img src="assets/img/visualizacion-captura.jpg" alt="Captura interactiva de la cuadrícula territorial de amplitud y respuestas individuales" loading="lazy">
+        </div>
+        <figcaption class="visual-caption">
+          <span class="caption-label">Visualización interactiva</span>
+          <span>Cuadrícula territorial con datos de Apertura (#ffde59) y Contención (#8c52ff), contornos vectoriales y testimonios.</span>
+          <span class="caption-meta">Plataforma digital</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- 6. SEXTA SECCIÓN — LAS TRES PLANTAS -->
+    <section class="about-section" id="seccion-plantas">
+      <div class="section-header-meta">
+        <span class="section-num">05</span>
+      </div>
+      <h2 class="section-title">¿CÓMO SE ORGANIZA LA INFORMACIÓN?</h2>
+
+      <div class="prose-text">
+        <p>
+          La visualización tridimensional organiza los datos a través de tres plantas superpuestas, permitiendo comprender distintas dimensiones analíticas de un mismo territorio:
+        </p>
+      </div>
+
+      <!-- Composición de las 3 plantas como capas superpuestas -->
+      <div class="layers-stack">
+        <article class="layer-card">
+          <div class="layer-index">
+            <span>01</span>
+            <div class="layer-index-indicator"></div>
+          </div>
+          <div class="layer-body">
+            <h3 class="layer-title">
+              <span>01 — PERCEPCIÓN DE AMPLITUD</span>
+              <span class="layer-tag">Capa Superior</span>
+            </h3>
+            <p class="layer-desc">
+              Representa las respuestas recopiladas en los ocho sectores. Los círculos amarillos corresponden a Apertura y los cuadrados morados a Contención. Cada figura representa una respuesta registrada.
+            </p>
+            <div class="layer-figures-legend">
+              <span class="legend-item">
+                <span class="legend-shape circle-yellow"></span>
+                <span>Apertura (#ffde59)</span>
+              </span>
+              <span class="legend-item">
+                <span class="legend-shape square-purple"></span>
+                <span>Contención (#8c52ff)</span>
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-card">
+          <div class="layer-index">
+            <span>02</span>
+            <div class="layer-index-indicator"></div>
+          </div>
+          <div class="layer-body">
+            <h3 class="layer-title">
+              <span>02 — TERRITORIO</span>
+              <span class="layer-tag">Capa Intermedia</span>
+            </h3>
+            <p class="layer-desc">
+              Representa la configuración urbana de Barrio Puerto mediante una maqueta tridimensional, permitiendo reconocer la ubicación de los sectores, sus calles, manzanas y edificios.
+            </p>
+          </div>
+        </article>
+
+        <article class="layer-card">
+          <div class="layer-index">
+            <span>03</span>
+            <div class="layer-index-indicator"></div>
+          </div>
+          <div class="layer-body">
+            <h3 class="layer-title">
+              <span>03 — FLUJO DE PERSONAS</span>
+              <span class="layer-tag">Capa Base</span>
+            </h3>
+            <p class="layer-desc">
+              Está destinada a representar los desplazamientos y flujos peatonales en relación con las condiciones espaciales. Esta dimensión se encuentra preparada para incorporar nuevos registros cuando estén disponibles.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7. SÉPTIMA SECCIÓN — EQUIPO Y CONTEXTO -->
+    <footer class="about-footer-section" id="seccion-equipo">
+      <div class="section-header-meta">
+        <span class="section-num">06</span>
+      </div>
+      <h2 class="section-title">EQUIPO Y CONTEXTO</h2>
+
+      <div class="footer-content">
+        <div class="footer-main-text">
+          <p>
+            Esta investigación fue desarrollada colectivamente por estudiantes de Diseño de la Escuela de Arquitectura y Diseño de la Pontificia Universidad Católica de Valparaíso, en el contexto del Taller de Diseño de Servicios 2026.
+          </p>
+        </div>
+
+        <div class="footer-details-grid">
+          <div class="detail-item">
+            <div class="detail-item-label">Lugar de estudio</div>
+            <div class="detail-item-value">Barrio Puerto, Valparaíso, Chile</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-item-label">Año de realización</div>
+            <div class="detail-item-value">2026</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-item-label">Institución académica</div>
+            <div class="detail-item-value">e[ad] Escuela de Arquitectura y Diseño PUCV</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Acciones de pie de página: Retorno a la visualización y volver arriba -->
+      <div class="footer-bottom-actions">
+        <a href="index.html" class="btn-primary-action">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="15" y1="8" x2="2" y2="8"></line>
+            <polyline points="8 14 2 8 8 2"></polyline>
+          </svg>
+          <span>Ir a la visualización de datos</span>
+        </a>
+
+        <button type="button" class="btn-back-top" id="btn-back-top" aria-label="Volver arriba">
+          <span>Volver arriba</span>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="15" x2="8" y2="2"></line>
+            <polyline points="2 8 8 2 14 8"></polyline>
+          </svg>
+        </button>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
